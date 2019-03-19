@@ -79,7 +79,7 @@ body {
 		<div class="show-uplog">
 			<a class="log"><?php echo $lang['index_0'];?></a>
 			<br/>
-			<iframe src="update.log.<?php echo $cfg['lang']?>.txt" class="uplog" style="color: #aaa;">
+			<iframe src="/forum/update.log.<?php echo $cfg['lang']?>.txt" class="uplog" style="color: #aaa;">
 			</iframe>
 		</div>
 	</body>
