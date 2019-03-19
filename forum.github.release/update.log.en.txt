@@ -1,0 +1,25 @@
+version 1.0
+- created homepage
+- created authorization and registration pages
+- created a topic system
+version 1.1
+- added modules
+- added configuration file
+- rewritten template page for topics
+- rewritten authorization system (now there is an auth.php file)
+- rewritten authorization and registration pages (style added, authorization function assigned)
+- added last activity feature
+version 1.2
+- a page has been created to otprpzheniya all topics (themes.php)
+- fixed the vulnerability associated with embedding malicious code
+- created profile page
+- rights appeared
+- added function of last activity and creation date for users
+version 1.3 (current)
+- created a new way to send comments "send+" (via vulnerability)
+- added language module
+
+planned
+- add comment anchors
+- add the ability to edit comments
+- complete the transition to an improved redirect system

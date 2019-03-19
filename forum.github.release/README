@@ -1,0 +1,21 @@
+V 1.3  -by Fleisar
+
+CONFIGURATION FILE
+/forum/modules/sqli.php [3-8]
+
+CONFIGURATION MySQL
+required database named 'forum'
+
+PERMISSION LEVEL
+set permission level can only in PMA (or other DB managers)
+highest permission level: 1 (Moderator)
+lower level: 0
+
+What can moderator?
+-delete comments users
+-delete topics other users
+-send comments via "send+"
+
+What can user?
+-create topics
+-send comments (except "send+")
